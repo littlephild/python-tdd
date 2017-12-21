@@ -13,6 +13,7 @@ class EmployeeHoliday(unittest.TestCase):
 
 
     def test_is_employee_registered(self):
+        # Test employee is registered!
         workers = Employee()
         self.assertTrue({"name": 'Ronald', 'email': "ronald@s8works.com"},
                         workers.register('Ronald', 'ronald@s8works.com'))
